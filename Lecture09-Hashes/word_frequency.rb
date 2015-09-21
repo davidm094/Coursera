@@ -1,6 +1,7 @@
 word_frequency = Hash.new(0) 
 
-sentence = "Chicka chicka boom boom" 
+sentence = "A A A A A A A A WW WW WW WW WWW EEE E D " 
+
 sentence.split.each do |word| 
   word_frequency[word.downcase] += 1 
 end 
